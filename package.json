@@ -17,9 +17,9 @@
   },
   "scripts": {
     "lint": "eslint . --ext .ts",
-    "start": "nodemon --watch src/server/* -e ts, tsx --exec ts-node src/server/index.ts --verbose",
+    "start": "nodemon --watch src/* -e ts, tsx --exec ts-node src/index.ts --verbose",
     "test": "jest --coverage",
-    "dev:node": "nodemon --watch src/server/* -e ts, tsx --exec ts-node src/server/index.ts --verbose",
+    "dev:node": "nodemon --watch src/* -e ts, tsx --exec ts-node src/index.ts --verbose",
   },
   "dependencies": {
     "koa": "^2.13.1",
