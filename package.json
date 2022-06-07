@@ -18,10 +18,8 @@
   "scripts": {
     "lint": "eslint . --ext .ts",
     "start": "nodemon --watch src/server/* -e ts, tsx --exec ts-node src/server/index.ts --verbose",
-    "build": "webpack --mode production",
     "test": "jest --coverage",
     "dev:node": "nodemon --watch src/server/* -e ts, tsx --exec ts-node src/server/index.ts --verbose",
-    "dev:web": "webpack --mode development"
   },
   "dependencies": {
     "koa": "^2.13.1",
